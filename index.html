@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div>
+        <h1 class="name">Dr. Ambrish Kumar Mishra</h1>
+      </div>
+      <section class="section">
+        <div class="sectiondiv">
+          <img src="mujtaba.jpg" alt="profilepicture" />
+          <div class="aboutme" id="aboutmescroll">
+            <h1>About Me</h1>
+            <p class="p1">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              accusantium totam officia, perferendis ab veritatis optio vero
+              dolore, voluptatem hic molestiae, voluptates a ducimus quis.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="edina_tm_contact" id="contact">
+        <div class="container">
+          <div class="edina_tm_title">
+            <h3>Contact</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+              ipsum sit nibh amet egestas tellus.
+            </p>
+          </div>
+          <div class="extra_info">
+            <ul class="wrapper">
+              <li data-aos="fade-right" class="aos-init aos-animate">
+                <div class="list_inner">
+                  <div class="icon"><img src="phone.svg" alt="icon" /></div>
+                  <div class="content">
+                    <h3>Phone</h3>
+                    <ul>
+                      <li>
+                        <a href="Tel: +919115899465">+919115899465</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li data-aos="fade-right" class="aos-init aos-animate">
+                <div class="list_inner">
+                  <div class="icon"><img src="email.svg" alt="icon" /></div>
+                  <div class="content">
+                    <h3>Email</h3>
+                    <ul>
+                      <li>
+                        <a href="mailto:ib-drambi07@gmail.com"
+                          >drambi07@gmail.com</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li data-aos="fade-right" class="aos-init aos-animate">
+                <div class="list_inner">
+                  <div class="icon"><img src="location.svg" alt="icon" /></div>
+                  <div class="content">
+                    <h3>Address</h3>
+                    <ul>
+                      <li>
+                        <p>Envato 121 King St,<br />Melbourne, Australia</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="mainpart">
+            <div
+              class="left aos-init aos-animate"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="300"
+            >
+              <div class="fields">
+                <form class="contact_form">
+                  <div class="first_row">
+                    <input name="name" type="text" placeholder="Name" />
+                  </div>
+                  <div class="second">
+                    <input name="email" type="email" placeholder="Email" />
+                  </div>
+                  <div class="third">
+                    <textarea name="message" placeholder="Message"></textarea>
+                  </div>
+                  <div class="edina_tm_button">
+                    <button type="submit" class="color">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div
+              class="right aos-init aos-animate"
+              data-aos="fade-right"
+              data-aos-duration="1200"
+              data-aos-delay="400"
+            >
+              <div class="google-map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3559.416610880318!2d80.91703591445368!3d26.858501768888843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399bfda2ee3c22ad%3A0x68ea1743c6fdc40!2sIdeal%20Polyclinic%20%7C%20Orthopedics%20Surgeon%20and%20Dr.%20R.%20K.%20Chaudhray%20best%20cardiologist%20in%20chowk%20Lucknow!5e0!3m2!1sen!2sin!4v1657348883807!5m2!1sen!2sin"
+                  width="600"
+                  height="450"
+                  style="border: 0"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script type="text/javascript">
+      function Validate() {
+        var txtName = document.getElementById("txtName");
+        if (txtName.value == "") {
+          alert("Please Fill Name !");
+          return false;
+        }
+
+        var txtMessage = document.getElementById("txtMessage");
+        if (txtMessage.value == "") {
+          alert("Please Enter Your Message !!  ) !");
+          return false;
+        }
+
+        return true;
+      }
+    </script>
+  </body>
+</html>

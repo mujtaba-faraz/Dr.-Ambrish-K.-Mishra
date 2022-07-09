@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+  font-size: 100%;
+  outline: none;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-image: url("Untitled.png");
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+main div .name {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section {
+  padding-bottom: 5rem;
+  padding-top: 7rem;
+  width: 100%;
+}
+.sectiondiv {
+  display: flex;
+  margin: auto;
+  width: 60%;
+}
+.aboutme {
+  margin-left: 1.25rem;
+}
+.section img {
+  border-radius: 2%;
+  height: 200px;
+}
+.aboutme h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.4px;
+  font-size: 1.5rem;
+}
+.aboutme .p1 {
+  font-family: "Zilla Slab", serif;
+  letter-spacing: 0.4px;
+  font-size: 1.125rem;
+  word-spacing: 0.5px;
+  margin-top: 0.5rem;
+}
+.aboutme h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.4px;
+  margin-top: 1rem;
+  font-size: 17px;
+}
+.aboutme .p2 {
+  font-family: "Zilla Slab", serif;
+  letter-spacing: 0.4px;
+  font-size: 1.063rem;
+  word-spacing: 0.5px;
+  margin-top: 0.5rem;
+}
+#aboutmescroll {
+  transition-duration: 3s;
+}
+.edina_tm_contact {
+  background: rgb(245, 248, 252);
+  position: absolute;
+  width: 100%;
+  margin-top: 112px;
+}
+.edina_tm_contact .container {
+  width: 70%;
+  margin: auto;
+}
+.wrapper {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.extra_info .wrapper .aos-init {
+  width: 265px;
+  height: 160px;
+  background-color: white;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.extra_info .wrapper .aos-init:last-child {
+  margin-right: 0px;
+}
+.content ul {
+  list-style-type: none;
+  margin-top: 5px;
+}
+.edina_tm_title h3 {
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .edina_tm_title p {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+}
+.list_inner .content ul li a {
+  color: black;
+  margin-top: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+.list_inner {
+  display: flex;
+  flex-direction: row;
+}
+.list_inner .icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(52, 73, 94);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+.list_inner .icon img {
+  width: 26px;
+  height: 26px;
+}
+.list_inner .content h3 {
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.mainpart {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.mainpart .left {
+  background: white;
+  width: 450px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.mainpart .right {
+  background: white;
+  width: 450px;
+  height: 400px;
+}
+.google-map {
+  padding: 18px;
+}
+.google-map iframe {
+  width: 100%;
+  height: 365px;
+}
+.left .title {
+  width: 80%;
+  margin: 20px auto 20px auto;
+}
+.left .fields {
+  width: 80%;
+  margin: 20px auto 20px auto;
+}
+.contact_form div input,
+button,
+textarea {
+  width: 100%;
+}
+.contact_form div {
+  margin-top: 20px;
+}
+.contact_form div textarea {
+  resize: none;
+  height: 150px;
+  padding: 5px 0px 0px 8px;
+  border: 1px solid rgba(80, 80, 80, 0.8);
+}
+.contact_form div textarea:focus {
+  border: 2px solid rgba(80, 80, 80, 0.8);
+}
+.contact_form div input {
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid rgba(80, 80, 80, 0.8);
+  padding: 0px 0px 0px 8px;
+}
+.contact_form div input:focus {
+  border: 2px solid rgba(80, 80, 80, 0.8);
+}
+.contact_form div button {
+  height: 35px;
+  cursor: pointer;
+  background: rgb(147, 225, 13);
+  border-radius: 2px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+.container .edina_tm_title {
+  margin: 35px 0px 50px 0px;
+}
+.container .extra_info {
+  margin: 0px 0px 40px 0px;
+}
+input::placeholder {
+  letter-spacing: 0.5px;
+}
+textarea::placeholder {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+}
+@media (max-width: 650px) {
+  .sectiondiv {
+    flex-direction: column;
+    align-items: center;
+  }
+  .aboutme {
+    margin-left: 0px;
+  }
+  .section img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 25px;
+  }
+  main div .name {
+    margin: 90px auto 0px auto;
+    width: 80%;
+  }
+}
+@media (max-width: 800px) {
+  .wrapper {
+    justify-content: center;
+  }
+  .container .edina_tm_title h3 {
+    text-align: center;
+  }
+  .mainpart {
+    flex-direction: column;
+    align-items: center;
+  }
+  .edina_tm_contact .container {
+    width: 100%;
+  }
+  .mainpart .left {
+    width: 90%;
+    margin: 0px auto 20px auto;
+  }
+  .mainpart .left .fields {
+    width: 86%;
+  }
+  .mainpart .right {
+    width: 90%;
+    margin: auto;
+  }
+}
